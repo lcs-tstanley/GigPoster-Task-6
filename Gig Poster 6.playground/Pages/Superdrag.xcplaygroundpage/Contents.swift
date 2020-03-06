@@ -46,7 +46,6 @@ let black = Color(hue: 0, saturation: 100, brightness: 0, alpha: 100)
 // Begin your solution here...
 
 
-
 /*:
  ## Use Source Control
  
@@ -62,3 +61,17 @@ let black = Color(hue: 0, saturation: 100, brightness: 0, alpha: 100)
 PlaygroundPage.current.liveView = canvas
 
 
+canvas.fillColor = lightBlue
+
+canvas.drawRectangle(at: Point(x:0, y:0), width: 400, height: 600)
+
+// Make purple circles
+
+canvas.borderColor = translucentPink
+
+canvas.drawShapesWithBorders = true
+canvas.drawShapesWithFill = false
+
+for width in stride(from: 10, through: 0 + 9 * 47, by: 47){
+    canvas.drawEllipse(at: Point(x:200, y:500), width: width, height: width, borderWidth: 12)
+}
