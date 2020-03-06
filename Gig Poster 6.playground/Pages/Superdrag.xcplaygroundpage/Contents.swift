@@ -74,7 +74,12 @@ canvas.drawShapesWithFill = false
 
 for width in stride(from: 10, through: 0 + 9 * 47, by: 47){
     canvas.drawEllipse(at: Point(x:200, y:400), width: width, height: width, borderWidth: 12)
-}
+    }
+
+// Fill in white middle circle
+canvas.fillColor = offWhite
+canvas.drawShapesWithFill = true
+canvas.drawEllipse(at: Point(x:200, y:400), width: 5, height: 5)
 
 
 // Make purple circles
@@ -87,6 +92,12 @@ canvas.drawShapesWithFill = false
 for width in stride(from: 10, through: 0 + 9 * 47, by: 47){
     canvas.drawEllipse(at: Point(x:200, y:500), width: width, height: width, borderWidth: 12)
 }
+
+// Fill in pink middle circle
+
+canvas.fillColor = translucentPink
+canvas.drawShapesWithFill = true
+canvas.drawEllipse(at: Point(x:200, y:500), width: 5, height: 5)
 
 // Make superdrag text
 
