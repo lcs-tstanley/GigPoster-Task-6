@@ -65,6 +65,18 @@ canvas.fillColor = lightBlue
 
 canvas.drawRectangle(at: Point(x:0, y:0), width: 400, height: 600)
 
+// Make white circles
+
+canvas.borderColor = offWhite
+
+canvas.drawShapesWithBorders = true
+canvas.drawShapesWithFill = false
+
+for width in stride(from: 10, through: 0 + 9 * 47, by: 47){
+    canvas.drawEllipse(at: Point(x:200, y:400), width: width, height: width, borderWidth: 12)
+}
+
+
 // Make purple circles
 
 canvas.borderColor = translucentPink
