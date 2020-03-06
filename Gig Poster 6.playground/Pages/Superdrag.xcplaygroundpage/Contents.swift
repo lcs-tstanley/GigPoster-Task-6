@@ -99,3 +99,13 @@ canvas.drawText(message: "with", at: Point(x:20, y:50), size: 10, kerning: 0.0)
 canvas.drawText(message: "the shambles", at: Point(x:20, y:35), size: 10, kerning: 0.0)
 
 canvas.drawText(message: "and lifter", at: Point(x:20, y:20), size: 10, kerning: 0.0)
+
+// Make middle text
+
+canvas.drawText(message: "thursday", at: Point(x:110, y:50), size: 10, kerning: 0.0)
+
+canvas.drawText(message: "june 13 1996 / 8:30", at: Point(x:110, y:35), size: 10, kerning: 0.0)
+
+canvas.drawText(message: "no age limit", at: Point(x:110, y:20), size: 10, kerning: 0.0)
+
+
