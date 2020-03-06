@@ -94,18 +94,24 @@ canvas.drawText(message: "superdrag", at: Point(x:20, y:80), size: 50, kerning: 
 
 // Make bottom left text
 
-canvas.drawText(message: "with", at: Point(x:20, y:50), size: 10, kerning: 0.0)
+canvas.drawText(message: "with", at: Point(x:20, y:50), size: 9, kerning: 0.0)
 
-canvas.drawText(message: "the shambles", at: Point(x:20, y:35), size: 10, kerning: 0.0)
+canvas.drawText(message: "the shambles", at: Point(x:20, y:35), size: 9, kerning: 0.0)
 
-canvas.drawText(message: "and lifter", at: Point(x:20, y:20), size: 10, kerning: 0.0)
+canvas.drawText(message: "and lifter", at: Point(x:20, y:20), size: 9, kerning: 0.0)
 
 // Make middle text
 
-canvas.drawText(message: "thursday", at: Point(x:110, y:50), size: 10, kerning: 0.0)
+canvas.drawText(message: "thursday", at: Point(x:110, y:50), size: 9, kerning: 0.0)
 
-canvas.drawText(message: "june 13 1996 / 8:30", at: Point(x:110, y:35), size: 10, kerning: 0.0)
+canvas.drawText(message: "june 13 1996 / 8:30", at: Point(x:110, y:35), size: 9, kerning: 0.0)
 
-canvas.drawText(message: "no age limit", at: Point(x:110, y:20), size: 10, kerning: 0.0)
+canvas.drawText(message: "no age limit", at: Point(x:110, y:20), size: 9, kerning: 0.0)
 
+// Make Right text
 
+canvas.drawText(message: "at brick by brick", at: Point(x:300, y:50), size: 9, kerning: 0.0)
+
+canvas.drawText(message: "1130 buenos avenue", at: Point(x:300, y:35), size: 9, kerning: 0.0)
+
+canvas.drawText(message: "san diego, ca", at: Point(x:300, y:20), size: 9, kerning: 0.0)
