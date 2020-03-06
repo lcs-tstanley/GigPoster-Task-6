@@ -87,3 +87,7 @@ canvas.drawShapesWithFill = false
 for width in stride(from: 10, through: 0 + 9 * 47, by: 47){
     canvas.drawEllipse(at: Point(x:200, y:500), width: width, height: width, borderWidth: 12)
 }
+
+// Make Text
+
+canvas.drawText(message: "superdrag", at: Point(x:20, y:80), size: 50, kerning: 0.0)
